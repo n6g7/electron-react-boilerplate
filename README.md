@@ -1,4 +1,4 @@
-# Electron/React boilerplate
+# Electron/React boilerplate [![CircleCI](https://circleci.com/gh/n6g7/electron-react-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/n6g7/electron-react-boilerplate/tree/master)
 
 Electron, React, Webpack, ESLint, Stylus
 
@@ -24,7 +24,7 @@ atom dist/index.html
 
 ## Todo
 
-- [ ] Tests
+- [X] Tests
 - [ ] Packaging
 - [ ] Redux
 - [ ] React hot loader
