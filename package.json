@@ -1,0 +1,46 @@
+{
+  "name": "electron-react-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for Electron/React applications",
+  "main": "dist/bundle.main.js",
+  "author": "Nathan G <n6g7@gnab.fr>",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n6g7/electron-react-boilerplate.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "boilerplate",
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/n6g7/electron-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/n6g7/electron-react-boilerplate#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "electron-prebuilt": "^1.2.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1",
+    "webpack": "^1.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
