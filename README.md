@@ -17,7 +17,7 @@ rm -r .git && git init
 atom package.json
 
 # Change main window name (<title> tag)
-atom dist/index.html
+atom app/index.html
 ```
 - run? `webpack && npm start`
 - test? `npm test`

@@ -2,7 +2,7 @@
   "name": "electron-react-boilerplate",
   "version": "0.0.1",
   "description": "A boilerplate for Electron/React applications",
-  "main": "dist/bundle.main.js",
+  "main": "app/bundle.main.js",
   "author": "Nathan G <n6g7@gnab.fr>",
   "scripts": {
     "pretest": "eslint --ext js,jsx src test",
