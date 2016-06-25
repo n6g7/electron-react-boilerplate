@@ -7,7 +7,8 @@
   "scripts": {
     "pretest": "eslint --ext js,jsx src test",
     "test": "mocha --compilers js:babel-core/register --require test/helper.js --recursive",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "webpack && rm -r dist && build -mwl"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "chai-enzyme": "^0.5.0",
     "cheerio": "^0.20.0",
     "css-loader": "^0.23.1",
+    "electron-builder": "^5.7.0",
     "electron-prebuilt": "^1.2.0",
     "enzyme": "^2.3.0",
     "eslint": "^2.13.1",
@@ -73,5 +75,9 @@
     "plugins": [
       "react"
     ]
+  },
+  "build": {
+    "appId": "fr.gnab.electron-react-boilerplate",
+    "app-category-type": "public.app-category.developer-tools"
   }
 }
